@@ -1,0 +1,57 @@
+﻿/* Page Layout */
+#Content {
+	margin-left: 5%;
+	padding-top: 2%;
+	padding-bottom: 3%;
+	width: 90%;
+	height: auto;
+	background-color: #EDEDED;
+}
+
+#SelecterHolder {
+	position: absolute;
+	width: 30%;
+	background-color: #7D7D7D;
+	height: 90%;
+	color: white;
+}
+
+#BookList {
+	position: absolute;
+	width: 50%;
+}
+
+#PageList {
+	position: relative;
+	width: 50%;
+	left: 50%;
+}
+
+/* Content */
+
+/* Result Banner */
+#Success {
+	width: 100%;
+	height: 20px;
+	background-color: #C1FFC1;
+	border-top: 2px dashed #008000;
+	border-Bottom: 2px dashed #008000;
+	Text-Align: Center;
+	top: 0px;
+	position: absolute;
+	padding: 2px;
+	left: -5px;
+}
+
+#Error {
+	width: 100%;
+	height: 20px;
+	background-color: #FA8072;
+	border-top: 2px dashed #CD0000;
+	border-Bottom: 2px dashed #CD0000;
+	Text-Align: Center;
+	top: 0px;
+	position: absolute;
+	padding: 2px;
+	left: -5px;
+}
